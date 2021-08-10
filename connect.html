@@ -8,6 +8,9 @@
     <title>Join Wefarm: Where farmers succeed Together</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="connect.css" />
+    <link
+        href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900'
+        rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -15,24 +18,27 @@
         <section class="form-section">
             <h1 class="title">Find the best priced inputs near your farm</h1>
 
-            <h4>
+            <h4 class="title-2">
                 Share your farm's location and we'll show you trustworthy, Wefarm
                 agrovets if they're nearby
             </h4>
 
-            <form class="phone-form form">
+            <form class="county-form form">
                 <section>
                     <label for="county"> County </label>
-                    <select id="county">
-                        <option>Bungoma</option>
-                        <option>Kericho</option>
+                    <select name="county" id="county">
+                        <option value="Bungoma">Bungoma</option>
+                        <option value="Kericho">Kericho</option>
                     </select>
                 </section>
                 <section>
                     <label for="subcounty"> Sub county (optional) </label>
-                    <select id="subcounty">
-                        <option>Bungoma</option>
-                        <option>Kericho</option>
+                    <select name="subcounty" id="subcounty">
+                        <option default>Bumula</option>
+                        <option value="Bumula">Bumula</option>
+                        <option value="Bungoma Central">Bungoma Central</option>
+                        <option value="Buret">Buret</option>
+                        <option value="Kericho East">Kericho East</option>
                     </select>
                 </section>
                 <section>
