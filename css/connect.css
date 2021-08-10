@@ -50,12 +50,6 @@ select {
   margin: 1em auto;
 }
 
-.error {
-  color: red;
-  margin-top: 0.3em;
-  visibility: hidden;
-}
-
 /* Responsiveness  */
 
 @media (min-width: 769px) {
