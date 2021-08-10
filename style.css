@@ -1,12 +1,18 @@
 .d-flex {
-  display: flex;
+  display: flex !important;
+}
+.d-inline-block {
+  display: inline-block !important;
 }
 d-grid {
-  display: grid;
+  display: grid !important;
 }
 content-center {
-  justify-content: center;
+  justify-content: center !important;
 }
 .item-center {
-  align-items: center;
+  align-items: center !important;
+}
+.form * {
+  display: block;
 }
