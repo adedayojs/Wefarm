@@ -4,6 +4,7 @@ function attachEventListner() {
     e.preventDefault();
     onSubmitPhoneForm();
   });
+  
 }
 
 function onSubmitPhoneForm() {
@@ -21,6 +22,8 @@ function onSubmitPhoneForm() {
   }
   window.location.href = "connect.html";
 }
+
+function onSubmitCountyForm() {}
 
 function displyError(err) {
   alert(err);
