@@ -43,6 +43,7 @@ input[type="number"] {
   border: 1px solid #545962;
   box-sizing: border-box;
   border-radius: 8px;
+  color: #000;
 }
 button {
   padding: 8px 10px;
