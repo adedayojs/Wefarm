@@ -1,0 +1,138 @@
+* {
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+}
+body {
+  /* background: #2a2663; */
+  padding: 0;
+  margin: 0;
+}
+main {
+  background: #2a2663;
+  height: 100vh;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.phone-section {
+  margin: 34px 17px;
+  border-bottom: 1px solid #ffffff4d;
+}
+phone-section * {
+  margin: auto;
+}
+.title,
+.phone-form {
+  margin: 21px auto;
+}
+.title {
+  font-size: 24px;
+  line-height: 32px;
+}
+label {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 0.5em;
+}
+input[type="number"] {
+  width: 75%;
+  border: 1px solid #545962;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #545962;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+button {
+  padding: 8px 10px;
+  height: 44px;
+  background: #1f864e;
+  box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.35);
+  border-radius: 8px;
+}
+
+/* Images Section */
+
+.image-section {
+  position: relative;
+}
+.image-section img {
+  margin: auto 0.7em;
+  border-radius: 8px;
+}
+.image-section img:nth-child(2),
+.image-section img:nth-child(4),
+.image-section img:nth-child(5) {
+  position: absolute;
+}
+
+.image-section img:nth-child(2) {
+  top: 90%;
+  left: 10%;
+  z-index: 10;
+}
+.image-section img:nth-child(4) {
+  top: 17%;
+  left: 69%;
+  z-index: 9;
+}
+.image-section img:nth-child(5) {
+  top: 19%;
+  left: 70%;
+  z-index: 10;
+}
+.image-section img:nth-child(3) {
+  position: relative;
+  top: 20px;
+}
+.image-section img:nth-child(6) {
+  position: relative;
+  top: 40px;
+}
+.image-section img:nth-child(1),
+.image-section img:nth-child(3),
+.image-section img:nth-child(6) {
+  /* width: 364.66px; */
+  height: 303.4482116699219px;
+
+  border-radius: 10px;
+}
+
+.desktop {
+  display: none;
+  visibility: hidden;
+}
+
+/* Responsiveness  */
+
+@media (min-width: 769px) {
+  .phone-section {
+    float: right;
+  }
+  main {
+    height: auto;
+    padding-right: 10em;
+  }
+  main div {
+    margin: 3em auto;
+  }
+
+  .image-section img:nth-child(2) {
+    top: 90%;
+    left: 37%;
+    z-index: 10;
+  }
+  .image-section img:nth-child(4) {
+    top: 17%;
+    left: 55%;
+
+    z-index: 9;
+  }
+  .image-section img:nth-child(5) {
+    top: 19%;
+    left: 55.3%;
+
+    z-index: 10;
+  }
+}
