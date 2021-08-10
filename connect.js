@@ -10,11 +10,11 @@ function attachEventListner() {
 function onSubmitCountyForm() {
   const county = document.getElementById("county");
   if (!county.value) {
-    // Value is not Present. Ideally this should never pass because the html required attribute is present, however never trust user input to check!
+    // This should be called. The rewuired value is not there by intention so you can see the error message feedback
     displyError("Please select a County", "county-error");
     return;
   }
-  alert("Success");
+  alert("Success. You Selected " + county.value);
 }
 
 function displyError(err, elementId) {
