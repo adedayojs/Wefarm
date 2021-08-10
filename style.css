@@ -7,8 +7,11 @@
 d-grid {
   display: grid !important;
 }
-content-center {
+.content-center {
   justify-content: center !important;
+}
+.content-around {
+  justify-content: space-around !important;
 }
 .item-center {
   align-items: center !important;
