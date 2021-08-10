@@ -108,12 +108,11 @@ button {
 /* Responsiveness  */
 
 @media (min-width: 769px) {
-  .phone-section {
+  /* .phone-section {
     float: right;
-  }
+  } */
   main {
     height: auto;
-    padding-right: 10em;
   }
   main div {
     margin: 3em auto;
@@ -135,5 +134,20 @@ button {
     left: 55.3%;
 
     z-index: 10;
+  }
+}
+@media (min-width: 1024px) {
+  .phone-section {
+    float: right;
+  }
+}
+/* @media (min-width: 769px) and (max-width: 1024px) {
+  main {
+    padding-right: 0em;
+  }
+} */
+@media (min-width: 1400px) {
+  main {
+    padding-right: 10em;
   }
 }
