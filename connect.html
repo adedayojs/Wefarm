@@ -27,14 +27,16 @@
                 <section>
                     <label for="county"> County </label>
                     <select name="county" id="county">
-                        <option value="Bungoma">Bungoma</option>
-                        <option value="Kericho">Kericho</option>
+                        <option default value="">Please choose</option>
+                        <option value="Bungoma">Bungoma County</option>
+                        <option value="Kericho">Kericho County</option>
                     </select>
+                    <label class="error" id="county-error"> Please Select a county </label>
                 </section>
                 <section>
                     <label for="subcounty"> Sub county (optional) </label>
                     <select name="subcounty" id="subcounty">
-                        <option default>Bumula</option>
+                        <option default value="">Please choose</option>
                         <option value="Bumula">Bumula</option>
                         <option value="Bungoma Central">Bungoma Central</option>
                         <option value="Buret">Buret</option>
@@ -47,6 +49,7 @@
             </form>
         </section>
     </main>
+    <script src="./connect.js"></script>
 </body>
 
 </html>

@@ -32,6 +32,9 @@ select {
   box-sizing: border-box;
   border-radius: 8px;
   background: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
 .county-form button {
   width: 100%;
@@ -45,6 +48,12 @@ select {
 }
 .county-form section {
   margin: 1em auto;
+}
+
+.error {
+  color: red;
+  margin-top: 0.3em;
+  visibility: hidden;
 }
 
 /* Responsiveness  */
