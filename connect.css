@@ -1,0 +1,11 @@
+.form-section{
+    width: 100%;
+}
+
+/* Responsiveness  */
+
+@media (min-width: 769px) {
+    .form-section{
+        width: 33%;
+    }
+  }
